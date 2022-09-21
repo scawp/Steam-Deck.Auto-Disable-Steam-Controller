@@ -45,7 +45,7 @@ mkdir -p "$tmp_dir"
 echo "Downloading Required Files"
 curl -o "$tmp_dir/disable_steam_input.sh" "$repo_url/disable_steam_input.sh"
 curl -o "$tmp_dir/simple_device_list.txt" "$repo_url/conf/simple_device_list.txt"
-curl -o "$tmp_dir/99-disable-steam-input.rules" "$repo_lib_dir/99-disable-steam-input.rules"
+curl -o "$tmp_dir/99-disable-steam-input.rules" "$repo_url/99-disable-steam-input.rules"
 
 echo "Making script folder $script_install_dir"
 mkdir -p "$script_install_dir/conf"
