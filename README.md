@@ -50,13 +50,13 @@ In Konsole type `curl -sSL https://raw.githubusercontent.com/scawp/Steam-Deck.Au
 
 a `sudo` password is required (run `passwd` if required first)
 
-# How to Temporarilly Disable
+# How to Temporarily Disable
 
 `touch /home/deck/.local/share/scawp/ADSC/conf/disable`
 
 to re-enable `rm /home/deck/.local/share/scawp/ADSC/conf/disable`
 
-# Unistallation
+# Uninstallation
 
 To write
 
