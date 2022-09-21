@@ -1,3 +1,5 @@
+# DO NOT USE BUGFIXING
+
 # Steam-Deck.Auto-Disable-Steam-Controller
 Script to Automatically disable 
 
