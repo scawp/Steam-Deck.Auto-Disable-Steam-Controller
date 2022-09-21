@@ -46,7 +46,7 @@ Not Yet Implemented!
 
 ## Via Curl (One Line Install)
 
-In Konsole type `curl -sSL https://raw.githubusercontent.com/scawp/Steam-Deck.Auto-Disable-Steam-Controller/curl_install.sh | bash`
+In Konsole type `curl -sSL https://raw.githubusercontent.com/scawp/Steam-Deck.Auto-Disable-Steam-Controller/main/curl_install.sh | bash`
 
 a `sudo` password is required (run `passwd` if required first)
 
