@@ -14,6 +14,7 @@ The Built in Steam Controller will be disabled until all External Controllers ar
 
 Currently this script works with the following Bluetooth Controllers by default:
  - `Playstation 4 Controllers` (Identified as `Wireless Controller`) 
+ - `Playstation 5 Controllers` (Identified as `Wireless Controller`) 
  - `Xbox One S/X Controllers` (Identified as `Xbox Wireless Controller`) 
  - `8BitDo SN30 gamepad`
  - And More! (see list below)
