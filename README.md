@@ -16,10 +16,12 @@ Currently this script works with the following Bluetooth Controllers by default:
  - `Playstation 4 Controllers` (Identified as `Wireless Controller`) 
  - `Xbox One S/X Controllers` (Identified as `Xbox Wireless Controller`) 
  - `8BitDo SN30 gamepad`
+ - And More! (see list below)
 
 The script also works with the following USB Controllers by default:
  - `Wired XBox 360 Controllers` (Identified as `Microsoft X-Box 360 pad`) 
  - `Wireless XBox 360 Controllers (Via Dongle)` (Identified as `Xbox 360 Wireless Receiver`) 
+ - And More! (see list below)
 
 # Manually adding more Devices
 
@@ -29,11 +31,30 @@ To add more USB devices run `lsusb` and add the name to `simple_device_list.txt`
 
 Default `simple_device_list.txt`
 ```
+
 Xbox Wireless Controller
+Brook XOne Adapter
 Wireless Controller
 8BitDo SN30 gamepad
+8Bitdo SF30 gamepad
+8Bitdo FC30 GamePad
+8Bitdo FC30 II
+8Bitdo NES30 GamePad
+8Bitdo SFC30 GamePad
+8Bitdo SNES30 GamePad
+8Bitdo FC30 Pro
+8Bitdo NES30 Pro
+8Bitdo SF30 Pro
+8Bitdo SN30 Pro
+8Bitdo Joy
+8Bitdo NES30 Arcade
+8Bitdo Zero GamePad
+8Bitdo N64 GamePad
+Pro Controller
+Nintendo RVL-CNT-01-UC
 Xbox 360 Wireless Receiver
 Microsoft X-Box 360 pad
+Mad Catz,Inc. PS3 RF pad
 #ROCCAT ROCCAT Arvo
 #MOSART Semi. 2.4G Wireless Mouse
 ```
