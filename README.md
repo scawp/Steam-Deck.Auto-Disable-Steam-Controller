@@ -23,7 +23,7 @@ The script also works with the following USB Controllers by default:
 
 # Manually adding more Devices
 
-To add more Bluetooth devices run `bluetoothctl devices` and add the name to `simple_device_list.txt` in `/home/deck/.local/share/scawp/ADSC/`
+To add more Bluetooth devices run `bluetoothctl devices` and add the name to `simple_device_list.txt` in `/home/deck/.local/share/scawp/SDADSC/`
 
 To add more USB devices run `lsusb` and add the name to `simple_device_list.txt`
 
@@ -52,7 +52,7 @@ a `sudo` password is required (run `passwd` if required first)
 
 # How to Temporarily Disable
 
-`touch /home/deck/.local/share/scawp/ADSC/conf/disable`
+`touch /home/deck/.local/share/scawp/SDADSC/conf/disable`
 
 to re-enable `rm /home/deck/.local/share/scawp/SDADSC/conf/disable`
 
