@@ -1,3 +1,3 @@
 # /etc/udev/rules.d/
-KERNEL=="input*", SUBSYSTEM=="input", ACTION=="add", RUN+="/home/deck/.local/share/scawp/ADSC/disable_steam_input.sh disable %k %E{NAME} %E{UNIQ} %E{PRODUCT}"
-KERNEL=="input*", SUBSYSTEM=="input", ACTION=="remove", RUN+="/home/deck/.local/share/scawp/ADSC/disable_steam_input.sh enable %k %E{NAME} %E{UNIQ} %E{PRODUCT}"
+KERNEL=="input*", SUBSYSTEM=="input", ACTION=="add", RUN+="/home/deck/.local/share/scawp/SDADSC/disable_steam_input.sh disable %k %E{NAME} %E{UNIQ} %E{PRODUCT}"
+KERNEL=="input*", SUBSYSTEM=="input", ACTION=="remove", RUN+="/home/deck/.local/share/scawp/SDADSC/disable_steam_input.sh enable %k %E{NAME} %E{UNIQ} %E{PRODUCT}"
