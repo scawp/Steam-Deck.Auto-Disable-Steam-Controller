@@ -16,6 +16,7 @@ Wireless Controller
 8Bitdo Zero GamePad
 8Bitdo N64 GamePad
 Pro Controller
+Nintendo RVL-CNT-01-UC
 Xbox 360 Wireless Receiver
 Microsoft X-Box 360 pad
 Mad Catz,Inc. PS3 RF pad
