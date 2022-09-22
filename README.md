@@ -54,7 +54,7 @@ a `sudo` password is required (run `passwd` if required first)
 
 `touch /home/deck/.local/share/scawp/ADSC/conf/disable`
 
-to re-enable `rm /home/deck/.local/share/scawp/ADSC/conf/disable`
+to re-enable `rm /home/deck/.local/share/scawp/SDADSC/conf/disable`
 
 # Uninstallation
 
