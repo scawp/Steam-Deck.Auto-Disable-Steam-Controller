@@ -12,9 +12,9 @@ if [ "$4" = "3/28de/11ff/1" ];then
   exit 0;
 fi
 
-script_install_dir="/home/deck/.local/share/scawp/ADSC"
+script_install_dir="/home/deck/.local/share/scawp/SDADSC"
 conf_dir="$script_install_dir/conf"
-tmp_dir="/tmp/scawp/ADSC"
+tmp_dir="/tmp/scawp/SDADSC"
 
 mkdir -p "$tmp_dir"
 mkdir -p "$conf_dir"
