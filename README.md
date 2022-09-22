@@ -1,5 +1,3 @@
-# DO NOT USE BUGFIXING
-
 # Steam-Deck.Auto-Disable-Steam-Controller
 Script to Automatically disable 
 
@@ -63,4 +61,6 @@ to re-enable `rm /home/deck/.local/share/scawp/ADSC/conf/disable`
 To write
 
 # "This is cool! How can I thank you?"
-Why not drop me a sub over on my youtube channel ;) [Chinballs Gaming](https://www.youtube.com/chinballsTV?sub_confirmation=1)
+### Why not drop me a sub over on my youtube channel ;) [Chinballs Gaming](https://www.youtube.com/chinballsTV?sub_confirmation=1)
+
+### Also [Check out all these other things I'm making](https://github.com/scawp/Steam-Deck.Tools-List)
