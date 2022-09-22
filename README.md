@@ -1,5 +1,5 @@
 # Steam-Deck.Auto-Disable-Steam-Controller
-Script to Automatically disable 
+Script to Automatically disable the built in Steam Controller when an External Controller (or Mouse or Keyboard) is connected and then enable once they are disconnected.
 
 # WORK IN PROGRESS!
 This will probably have bugs, so beware! log bugs under [issues](https://github.com/scawp/Steam-Deck.Auto-Disable-Steam-Controller/issues)!
