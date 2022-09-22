@@ -28,8 +28,8 @@ if [ "$debug" = "1" ];then
   conf_dir="$script_install_dir/conf"
   mkdir -p "$tmp_dir"
   mkdir -p "$conf_dir"
-  echo "===================================================" >> $script_install_dir/text.txt
-  echo "$mode - $1 - $2 - $3 - $4 - $5" >> $script_install_dir/text.txt
+  echo "===================================================" >> $script_install_dir/debug.log
+  echo "$mode - $1 - $2 - $3 - $4 - $5" >> $script_install_dir/debug.log
 fi
 
 action="$1"

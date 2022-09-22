@@ -11,10 +11,10 @@ set -e
 
 repo_url="https://raw.githubusercontent.com/scawp/Steam-Deck.Auto-Disable-Steam-Controller/main"
 
-tmp_dir="/tmp/scawp/ADSC"
+tmp_dir="/tmp/scawp.SDADSC.install"
 
 rules_install_dir="/etc/udev/rules.d"
-script_install_dir="/home/deck/.local/share/scawp/ADSC"
+script_install_dir="/home/deck/.local/share/scawp/SDADSC"
 
 device_name="$(uname --nodename)"
 user="$(id -u deck)"
