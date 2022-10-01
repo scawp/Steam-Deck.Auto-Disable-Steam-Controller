@@ -4,6 +4,10 @@ Script to Automatically disable the built in Steam Controller when an External C
 # WORK IN PROGRESS!
 This will probably have bugs, so beware! log bugs under [issues](https://github.com/scawp/Steam-Deck.Auto-Disable-Steam-Controller/issues)!
 
+# Video Guide
+
+https://youtu.be/0sACNVwWXw4
+
 # About
 
 When using External Controllers with the Steam Deck, sometimes the build in Steam Controller gets in the way by either not allowing the use of an External Controller at all, Having to Reassign Controller in the config each time you play a game, or interfering with Multiplayer games. This script simply listens to `udev` for when an External Controller is connected (either by Bluetooth or USB) then disables the Built in Steam Controller so that the (first) External Controller Defaults to Player One.
@@ -74,9 +78,9 @@ a `sudo` password is required (run `passwd` if required first)
 
 # How to Temporarily Disable
 
-`touch /home/deck/.local/share/scawp/SDADSC/conf/disable`
+`touch /home/deck/.local/share/scawp/SDADSC/conf/disabled`
 
-to re-enable `rm /home/deck/.local/share/scawp/SDADSC/conf/disable`
+to re-enable `rm /home/deck/.local/share/scawp/SDADSC/conf/disabled`
 
 # Uninstallation
 
