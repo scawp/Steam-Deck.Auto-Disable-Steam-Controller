@@ -84,7 +84,17 @@ to re-enable `rm /home/deck/.local/share/scawp/SDADSC/conf/disabled`
 
 # Uninstallation
 
-To write
+Run the following codes:
+
+`sudo rm -r /home/deck/.local/share/scawp/SDADSC` #To delete the code
+
+`sudo rm -r /etc/udev/rules.d/99-disable-steam-input.rules` #To delete the rule
+
+`sudo udevadm control --reload` #To reload the service
+
+
+You may need to reboot if you ran these lines when a bluetooth controller was connected.
+
 
 # "This is cool! How can I thank you?"
 ### Why not drop me a sub over on my youtube channel ;) [Chinballs Gaming](https://www.youtube.com/chinballsTV?sub_confirmation=1)
