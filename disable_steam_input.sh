@@ -47,9 +47,9 @@ if [ ! -f "$conf_dir/disabled" ];then
   if [ "$mode" = "simple" ] && [ -n "$(grep "^$device_name$" "$conf_dir/simple_device_list.txt")" ]; then
     if [ "$action" = "disable" ];then
       if [ ! -f "$tmp_dir/controller_id.txt" ];then
-        echo "3-3:1.0" > /sys/bus/usb/drivers/usbhid/unbind
-        echo "3-3:1.1" > /sys/bus/usb/drivers/usbhid/unbind
-        echo "3-3:1.2" > /sys/bus/usb/drivers/usbhid/unbind
+        echo "1-3:1.0" > /sys/bus/usb/drivers/usbhid/unbind
+        echo "1-3:1.1" > /sys/bus/usb/drivers/usbhid/unbind
+        echo "1-3:1.2" > /sys/bus/usb/drivers/usbhid/unbind
       fi
       echo "$device_id" >> "$tmp_dir/controller_id.txt"
 
@@ -58,9 +58,9 @@ if [ ! -f "$conf_dir/disabled" ];then
 
       if [ ! -s "$tmp_dir/controller_id.txt" ];then
         rm "$tmp_dir/controller_id.txt"
-        echo "3-3:1.0" > /sys/bus/usb/drivers/usbhid/bind
-        echo "3-3:1.1" > /sys/bus/usb/drivers/usbhid/bind
-        echo "3-3:1.2" > /sys/bus/usb/drivers/usbhid/bind
+        echo "1-3:1.0" > /sys/bus/usb/drivers/usbhid/bind
+        echo "1-3:1.1" > /sys/bus/usb/drivers/usbhid/bind
+        echo "1-3:1.2" > /sys/bus/usb/drivers/usbhid/bind
       fi
     fi
   fi
