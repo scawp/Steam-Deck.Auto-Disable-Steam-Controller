@@ -53,8 +53,9 @@ if [ ! -f "$conf_dir/disabled" ];then
       fi
       echo "$device_id" >> "$tmp_dir/controller_id.txt"
 
-    elif [ "$action" = "enable" ] && [ -f "$tmp_dir/controller_id.txt" ] && [ -n "$(grep -i "^$device_id$" "$tmp_dir/controller_id.txt")" ];then
+    elif [ "$action" = "enable" ] && [ -f "$tmp_dir/controller_id.txt" ];then
       sed -i "/^$device_id$/d" "$tmp_dir/controller_id.txt"
+      sed -i '/^$/d' "$tmp_dir/controller_id.txt"
 
       if [ ! -s "$tmp_dir/controller_id.txt" ];then
         rm "$tmp_dir/controller_id.txt"
