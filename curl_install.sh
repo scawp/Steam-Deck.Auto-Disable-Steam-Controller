@@ -91,12 +91,12 @@ fi
 if [[ "$result" =~ "Keyboard" ]]; then
   echo "Add Keyboard Rules"
   echo 'KERNEL=="input*", SUBSYSTEM=="input", ENV{ID_INPUT_KEYBOARD}=="1", ACTION=="add", RUN+="/home/deck/.local/share/scawp/SDADSC/disable_steam_input.sh disable %k %E{NAME} %E{UNIQ} %E{PRODUCT}"' | sudo tee -a "$rules_install_dir/99-disable-steam-input.rules"
-  echo 'KERNEL=="input*", SUBSYSTEM=="input", ENV{ID_INPUT_KEYBOARD}=="1", ACTION=="remove", RUN+="/home/deck/.local/share/scawp/SDADSC/disable_steam_input.sh disable %k %E{NAME} %E{UNIQ} %E{PRODUCT}"' | sudo tee -a "$rules_install_dir/99-disable-steam-input.rules"
+  echo 'KERNEL=="input*", SUBSYSTEM=="input", ENV{ID_INPUT_KEYBOARD}=="1", ACTION=="remove", RUN+="/home/deck/.local/share/scawp/SDADSC/disable_steam_input.sh enable %k %E{NAME} %E{UNIQ} %E{PRODUCT}"' | sudo tee -a "$rules_install_dir/99-disable-steam-input.rules"
 fi
 if [[ "$result" =~ "Mouse" ]]; then
   echo "Add Mouse Rules"
   echo 'KERNEL=="input*", SUBSYSTEM=="input", ENV{ID_INPUT_MOUSE}=="1", ACTION=="add", RUN+="/home/deck/.local/share/scawp/SDADSC/disable_steam_input.sh disable %k %E{NAME} %E{UNIQ} %E{PRODUCT}"' | sudo tee -a "$rules_install_dir/99-disable-steam-input.rules"
-  echo 'KERNEL=="input*", SUBSYSTEM=="input", ENV{ID_INPUT_MOUSE}=="1", ACTION=="remove", RUN+="/home/deck/.local/share/scawp/SDADSC/disable_steam_input.sh disable %k %E{NAME} %E{UNIQ} %E{PRODUCT}"' | sudo tee -a "$rules_install_dir/99-disable-steam-input.rules"
+  echo 'KERNEL=="input*", SUBSYSTEM=="input", ENV{ID_INPUT_MOUSE}=="1", ACTION=="remove", RUN+="/home/deck/.local/share/scawp/SDADSC/disable_steam_input.sh enable %k %E{NAME} %E{UNIQ} %E{PRODUCT}"' | sudo tee -a "$rules_install_dir/99-disable-steam-input.rules"
 fi
 
 echo "Reloading Services"
