@@ -22,7 +22,8 @@ exit 0;
 fi
 
 #TODO check if all Steam Decks identify as Product 3/28de/1205/111
-if [ "$5" = "3/28de/1205/111" ];then
+#Added new product Id /110 ref: https://github.com/scawp/Steam-Deck.Auto-Disable-Steam-Controller/issues/10#issuecomment-2036096703
+if [ "$5" = "3/28de/1205/111" ] || [ "$5" = "3/28de/1205/110" ];then
   #Steam Deck Built-in Controllers, exit and ignore
   echo "STEAM DECK!!!" >> "$tmp_dir/debug.log"
 exit 0;
