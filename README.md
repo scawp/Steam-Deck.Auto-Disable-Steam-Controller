@@ -14,9 +14,9 @@ This will probably have bugs, so beware! log bugs under [issues](https://github.
 The Deck registers:
 
 - Virtual Keyboard with `Product_ID` of `11/1/1/ab83`
-- A `JOYSTICK` with `Product_ID` of `3/28de/1205/111`
+- A `JOYSTICK` with `Product_ID` of `3/28de/1205/*`
 
-I've no idea if this applies to all Decks or just Version 1 Decks, the newer revisions of hardware, including the OLED model could have different `Product_ID , I've no way to test this so someone will have to tell me!
+These will be ignored by this script.
 
 # Video Guide
 
